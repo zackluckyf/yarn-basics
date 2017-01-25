@@ -4,6 +4,10 @@
   "main": "index.js",
   "repository": {},
   "license": "MIT",
+  "scripts":{
+    "start": "node server.js",
+    "test": ""
+  },
   "dependencies": {
     "express": "^4.14.0"
   },

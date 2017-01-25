@@ -1,11 +1,11 @@
 const express = require('express');
-const PORT = process.evn.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 let app = express();
 
 app.get('/', (req, res) => {
     res.send('This is my yarn project.');
 });
 
-app.listen(port, () =>{
+app.listen(PORT, () =>{
     console.log(`Server is up on port ${PORT}!`);
 })
